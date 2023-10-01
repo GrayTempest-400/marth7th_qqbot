@@ -1,0 +1,1 @@
+{"model_path": "your_model.pth", "config_path": "your_config.json", "cluster_model_path": "your_cluster_model.pkl"}

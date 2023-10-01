@@ -1,0 +1,39 @@
+{
+  "model_path": "path/to/your/model.pth",
+  "config_path": "path/to/your/config.json",
+  "cluster_model_path": "path/to/your/cluster_model.pth",
+  "diff_model_path": "path/to/your/diff_model.pth",
+  "diff_config_path": "path/to/your/diff_config.json",
+  "device": "Auto",
+  "enhance": false,
+  "only_diffusion": false,
+  "local_model_enabled": false,
+  "local_model_selection": "path/to/your/local_models",
+  "audio_settings": {
+    "auto_f0": false,
+    "f0_predictor": "pm",
+    "vc_transform": 0,
+    "cluster_ratio": 0.5,
+    "slice_db": -40,
+    "output_format": "wav",
+    "noise_scale": 0.4,
+    "k_step": 100,
+    "pad_seconds": 0.5,
+    "cl_num": 0,
+    "lg_num": 0,
+    "lgr_num": 0.75,
+    "enhancer_adaptive_key": 0,
+    "cr_threshold": 0.05,
+    "loudness_envelope_adjustment": 0,
+    "second_encoding": false,
+    "use_spk_mix": false
+  },
+  "text2tts": {
+    "enabled": false,
+    "input_text": "你好，这是一个文本转语音的示例。",
+    "tts_lang": "Auto",
+    "tts_gender": "男",
+    "tts_rate": 0.0,
+    "tts_volume": 0.0
+  }
+}
